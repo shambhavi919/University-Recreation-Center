@@ -14,8 +14,8 @@ public class SQLConnection {
 	private SQLConnection() {
 		DB_DRIVER = "com.mysql.jdbc.Driver";
 		DB_CONNECTION  = "jdbc:mysql://localhost:3306/uta_facility_maintenance_system?autoReconnect=true&useSSL=false";
-		DB_USER  = "root";
-		DB_PASSWORD = "jh10e7389";
+		DB_USER  = "XXXXXX";
+		DB_PASSWORD = "XXXXXX";
 	}
 	public static synchronized SQLConnection getInstance() {
         if (single_instance == null)
